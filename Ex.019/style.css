@@ -16,3 +16,20 @@ h1#principal {
 h2 {
     color: blueviolet;
 }
+
+.basic {
+    color: rgb(211, 155, 167);
+}
+
+.intermediate {
+    color: rgb(214, 77, 105);
+}
+
+.advanced {
+    color: crimson;
+}
+
+.destaque {
+    font-weight: bold;
+    color: coral;
+}
