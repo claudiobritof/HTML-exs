@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: blue;
+        }
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: red;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+        }
+        main {
+            background-color: blueviolet;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article {
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        article > aside {
+
+        }
+    </style>
+</head>
+<body>
+    <h1>My website</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <header>
+        <main>
+            <section id="subjects">
+
+            </section>
+            <section id="news">
+                <article>
+                    <h2>Brazil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam itaque provident possimus, non dolorum recusandae laborum inventore totam eos officia, similique a laudantium sunt dolor fuga temporibus? Tempora, cumque deserunt!</p>
+                    <aside>
+                        <p>Written by ...</p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+    </header>
+</body>
+</html>
