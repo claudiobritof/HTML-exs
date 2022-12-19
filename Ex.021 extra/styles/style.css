@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(#1A1B1F,rgb(48, 48, 48));
+    background-color: #1A1B1F;  /*For browsers that do not support gradients */
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1A1B1F;
+}
