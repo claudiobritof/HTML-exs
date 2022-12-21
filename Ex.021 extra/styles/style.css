@@ -1,8 +1,35 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*
+Black: #00120b
+Bright Yellow Crayola: #FAA916
+Screamin Green: #34F765
+Tuscan Red: #764248
+Gray X 11 Gray: #bfc0c0
+*/
+
+:root {
+    --blackback: #00120b;
+    --yellowCV: #FAA916;
+    --buttons: #34F765;
+    --strongdetail: #764248;
+    --grayedited: #bfc0c0;
+
+    --fonte-padrao: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --fonte-destaque: 'Nunito', sans-serif;
+}
+
+* {
+    margin: 3px;
+    padding: 2px;
+}
+
 body {
-    background-image: linear-gradient(#1A1B1F,rgb(48, 48, 48));
-    background-color: #1A1B1F;  /*For browsers that do not support gradients */
+    background-image: linear-gradient(#00120b,black);
+    background-color: var(--blackback);  /*For browsers that do not support gradients */
+    font-family: var(--fonte-destaque);
 }
 
 header {
@@ -10,6 +37,56 @@ header {
     padding: 20px;
 }
 
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+nav {
+    color: var(--grayedited);
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+}
+
+nav:active {
+    color: var(--grayedited);
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 30px;
+    margin: auto;
+}
+
+main img {
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color: var(--grayedited);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.greenlight {
+    color: #34F765;
+    text-decoration: none;
+}
+
+.greenlight:active {
+    color: #34F765;
+    text-decoration: none;
+}
+
 footer {
     background-color: #1A1B1F;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #815E5B;
 }
