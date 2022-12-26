@@ -121,6 +121,7 @@ main > ul > li > a:hover {
     font-family: var(--fonte-destaque);
     transition-duration: 0.2s;
     list-style: none;
+    list-style-image: ;
 }
 
 main > ul > li > a:active {
