@@ -121,7 +121,6 @@ main > ul > li > a:hover {
     font-family: var(--fonte-destaque);
     transition-duration: 0.2s;
     list-style: none;
-    list-style-image: ;
 }
 
 main > ul > li > a:active {
@@ -182,28 +181,31 @@ div.video > iframe {
     height: 80%;
 }
 
-footer > p > a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #815E5B;
-    text-decoration: underline;
+.button {
+    color: white;
+    padding: 12px 30px;
+    border-radius: 15px;
+    border: var(--buttons);
+    font-size: 18px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: rgb(40, 161, 40);
+    box-shadow:  2px 2px 3px 3px black;
+    font-weight: 550;
 }
 
-footer > p > a:active {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #815E5B;
-    text-decoration: underline;
+.button:active {
+    background-color: green;
+    box-shadow:  0px 5px black;
+    transform: translateY(4px);
 }
 
-footer > p > a:visited {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #815E5B;
-    text-decoration: underline;
+.button:hover {
+    color: #cacaca;
 }
 
-footer > p > a:hover {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #5f4543;
-    text-decoration: underline;
+.items {
+    text-align: center;
 }
 
 h2 {
@@ -237,4 +239,28 @@ footer {
     color: #815E5B;
     padding: 5px;
     margin-top: 30px;
+}
+
+footer > p > a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #815E5B;
+    text-decoration: underline;
+}
+
+footer > p > a:active {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #815E5B;
+    text-decoration: underline;
+}
+
+footer > p > a:visited {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #815E5B;
+    text-decoration: underline;
+}
+
+footer > p > a:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5f4543;
+    text-decoration: underline;
 }
