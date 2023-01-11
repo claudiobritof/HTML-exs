@@ -59,31 +59,41 @@ header > h1:hover {
 }
 
 nav {
+    display: flex;
+    align-items: center;
     color: var(--grayedited);
     text-decoration: none;
     font-family: var(--fonte-destaque);
     text-align: right;
     margin: auto;
+    text-indent: 10px;
     min-width: 900px;
 }
 
-nav > a {
+nav > span {
+    margin-left: 400px;
+}
+
+nav > span > a {
     color: var(--grayedited);
     text-decoration: none;
     font-family: var(--fonte-destaque);
     font-size: 22px;
+    text-align: right;
 }
 
-nav > a:hover {
+nav > span > a:hover {
     color: rgb(75, 75, 75);
     text-decoration: none;
     font-family: var(--fonte-destaque);
     transition-duration: 0.2s;
+    text-align: right;
 }
 
 nav:active {
     color: var(--grayedited);
     text-decoration: none;
+    text-align: right;
     font-family: var(--fonte-destaque);
 }
 
